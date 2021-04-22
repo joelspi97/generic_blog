@@ -1,4 +1,16 @@
 @media (max-width: 800px) {
+      /* HEADER */
+
+      header .header__icons-section {
+        justify-content: center;
+    }
+    .header__icons-section .header__icons-container {
+        margin-right: 0;
+        width: 20rem;
+    }
+    .nav__link-container a:hover {
+        font-size: inherit;
+    }
 
     /* CONTACT */
 
@@ -59,18 +71,7 @@
 
 @media (max-width: 520px) {
 
-    /* HEADER */
-
-    header .header__icons-section {
-        justify-content: center;
-    }
-    .header__icons-section .header__icons-container {
-        margin-right: 0;
-        width: 20rem;
-    }
-    .nav__link-container a:hover {
-        font-size: inherit;
-    }
+  
 
 
 
