@@ -1,4 +1,6 @@
 @media (max-width: 800px) {
+
+
       /* HEADER */
 
       header .header__icons-section {
@@ -11,6 +13,8 @@
     .nav__link-container a:hover {
         font-size: inherit;
     }
+
+
 
     /* CONTACT */
 
@@ -37,12 +41,16 @@
     .about-me__container {
         flex-wrap: wrap;
     }
+    .about-me__container img {
+        width: 100%;
+    }
     .profile-projects__container {
         grid-template-columns: 1fr 1fr;
     }
     .profile-projects {
         padding: 0 1.5rem 3rem;
     }
+    
 
 
 
@@ -72,9 +80,6 @@
 @media (max-width: 520px) {
 
   
-
-
-
     /* FOOTER */
 
     footer {
@@ -112,9 +117,6 @@
 
     /* PROFILE */
 
-    .about-me__container img {
-        width: 100%;
-    }
     .profile-projects__container {
         grid-template-columns: 1fr;
     }
