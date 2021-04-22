@@ -14,7 +14,7 @@
     .home-main {
         display: block;
     }
-    .main-text-container {
+    .main__text-container {
         padding-bottom: 5rem;
     }
 
@@ -102,7 +102,7 @@
 
     /* HOME */
 
-    .main-text-container {
+    .main__text-container {
         font-size: 1.7rem;
         padding: 7rem;
     }
