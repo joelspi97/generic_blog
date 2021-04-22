@@ -31,6 +31,7 @@
         display: block;
     }
     .main__text-container {
+        padding: 7rem;
         padding-bottom: 5rem;
     }
 
@@ -110,7 +111,6 @@
 
     .main__text-container {
         font-size: 1.7rem;
-        padding: 7rem;
     }
 
 
