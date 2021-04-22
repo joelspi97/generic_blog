@@ -1,8 +1,8 @@
-@media (max-width: 50em) {
+@media (max-width: 800px) {
 
     /* CONTACT */
 
-    .contact-section {
+    .contact {
         padding-left: 3rem;
         padding-right: 3rem;
     }
@@ -22,13 +22,13 @@
 
     /* PROFILE */
 
-    .profile-main-items-container {
+    .about-me__container {
         flex-wrap: wrap;
     }
-    .main-projects-container {
+    .profile-projects__container {
         grid-template-columns: 1fr 1fr;
     }
-    .profile-main-projects {
+    .profile-projects {
         padding: 0 1.5rem 3rem;
     }
 
@@ -36,13 +36,13 @@
 
     /* BLOGS */
 
-    .main-blogpost-container {
+    .hero-blogpost__container {
         grid-template-columns: 1fr;
     }
-    .main-blogpost-right {
+    .hero-blogpost__right {
         padding-left: 0;
     }
-    .blogpost-list-container {
+    .blogpost-list__container {
         grid-template-columns: 1fr 1fr;
     }
 
@@ -50,25 +50,25 @@
 
     /* BLOG */
 
-    .blog-text-container {
+    .blog__text-container {
         padding: 0 3rem;
     }
 }
 
 
 
-@media (max-width: 32em) {
+@media (max-width: 520px) {
 
     /* HEADER */
 
-    header .header-icons-section {
+    header .header__icons-section {
         justify-content: center;
     }
-    .header-icons-section .icons-container {
+    .header__icons-section .header__icons-container {
         margin-right: 0;
         width: 20rem;
     }
-    .nav-link-container a:hover {
+    .nav__link-container a:hover {
         font-size: inherit;
     }
 
@@ -84,15 +84,15 @@
 
     /* CONTACT */
 
-    .contact-section {
+    .contact {
         padding: 1rem 3rem;
     }
-    .contact-main-container {
+    .contact__main-container {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
     }
-    .contact-left-container, .contact-right-container {
+    .contact__left-container, .contact__right-container {
         padding: 0;
         margin: 1rem 0;
         width: 100%;
@@ -111,10 +111,10 @@
 
     /* PROFILE */
 
-    .profile-main-items-container img {
+    .about-me__container img {
         width: 100%;
     }
-    .main-projects-container {
+    .profile-projects__container {
         grid-template-columns: 1fr;
     }
 
@@ -122,7 +122,7 @@
 
     /* BLOGS */
 
-    .blogpost-list-container {
+    .blogpost-list__container {
         grid-template-columns: 1fr;
     }
 }
